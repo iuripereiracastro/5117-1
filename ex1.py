@@ -1,5 +1,5 @@
 """
-Escreve um programa que recebe 3 variaveis: a, b, definidor
+Escreve um programa que recebe 3 variaveis: a, b, operador
 Uma funçao aritmética (ari) recebe as 3 e dependendo da informação dada multiplica, soma, divide ou subtrai
 Print
 """
