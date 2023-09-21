@@ -24,7 +24,7 @@ if 6 in lista:
 print(lista)
 """
 
-lista = [10, 20, 30, 40, 50]
+list = [10, 20, 30, 40, 50]
 """
 print(lista[0])
 print(lista[1])
@@ -33,5 +33,15 @@ print(lista[3])
 print(lista[4])
 """
 
-for num in lista:
+# total = list[0] + list[1] + list[2] + list[3] + list[4]
+# print(total)
+
+print(sum(list))
+
+total = 0
+
+for num in list:
     print(num)
+    total = total + num
+
+print(total)
