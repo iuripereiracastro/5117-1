@@ -24,7 +24,7 @@ if 6 in lista:
 print(lista)
 """
 
-list = [10, 20, 30, 40, 50]
+list = [50, 20, 30, 70, 10, 15, 130, 60, 40]
 """
 print(lista[0])
 print(lista[1])
@@ -39,9 +39,13 @@ print(lista[4])
 print(sum(list))
 
 total = 0
+maior = list[0]
 
 for num in list:
     print(num)
     total = total + num
+    if num > maior:
+        maior = num
 
 print(total)
+print(maior)
