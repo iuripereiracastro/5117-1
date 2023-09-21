@@ -19,10 +19,10 @@ while True:
         print(f'Insira um valor valido para o segundo numero.')
         continue
 
-operador = input(f'Insira o tipo de operacao ( +, -, *, :):')
+operador = input(f'Insira o tipo de operacao ( +, -, *, /):')
 
-while operador not in ('+', '-', '*', ':'):
-    operador = input(f'Insira um valor valido( +, -, *, :):')
+while operador not in ('+', '-', '*', '/'):
+    operador = input(f'Insira um valor valido( +, -, *, /):')
 
 
 def ari(num1, num2, op):
