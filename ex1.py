@@ -28,17 +28,14 @@ while operador not in ('+', '-', '*', '/'):
 def ari(num1, num2, op):
     if op == '+':
         var = num1 + num2
-        print(f'Resultado: {var}')
     elif op == '-':
         var = num1 - num2
-        print(f'Resultado: {var}')
     elif op == '*':
         var = num1 * num2
-        print(f'Resultado: {var}')
     else:
         var = num1 / num2
-        print(f'Resultado: {var}')
+    return var
 
 
-ari(a, b, operador)
+print(ari(a, b, operador))
 
