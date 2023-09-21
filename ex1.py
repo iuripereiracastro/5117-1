@@ -19,20 +19,20 @@ while True:
         print(f'Insira um valor valido para o segundo numero.')
         continue
 
-definidor = input(f'Insira o tipo de operacao ( +, -, *, /):')
+operador = input(f'Insira o tipo de operacao ( +, -, *, :):')
 
-while definidor not in ('+', '-', '*', '/'):
-    definidor = input(f'Insira um valor valido( +, -, *, /):')
+while operador not in ('+', '-', '*', ':'):
+    operador = input(f'Insira um valor valido( +, -, *, :):')
 
 
-def ari(num1, num2, operador):
-    if operador == '+':
+def ari(num1, num2, op):
+    if op == '+':
         var = num1 + num2
         print(f'Resultado: {var}')
-    elif operador == '-':
+    elif op == '-':
         var = num1 - num2
         print(f'Resultado: {var}')
-    elif operador == '*':
+    elif op == '*':
         var = num1 * num2
         print(f'Resultado: {var}')
     else:
@@ -40,5 +40,5 @@ def ari(num1, num2, operador):
         print(f'Resultado: {var}')
 
 
-ari(a, b, definidor)
+ari(a, b, operador)
 
