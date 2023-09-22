@@ -3,9 +3,7 @@ Lista: Quantidade de numeros entre 0 e 10; 11 e 20; 21 e 30; 31 e 40; 41 e 50; 5
                                      a        b        c        d        e      f
 """
 
-list = [60, 20, 40, 39, 10, 25, 40, 239, 10, 59, 28, 29]
-
-i = 0
+list = [60, 20, 40, 39, 10, 25, 40, 239, 10, 59, 28, 29, 200]
 
 a = 0
 b = 0
@@ -16,17 +14,16 @@ f = 0
 
 for num in list:
     if num <= 10:
-        a = a + 1
+        a += 1
     elif num <= 20:
-        b = b + 1
+        b += 1
     elif num <= 30:
-        c = c + 1
+        c += 1
     elif num <= 40:
-        d = d + 1
+        d += 1
     elif num <= 50:
-        e = e + 1
+        e += 1
     else:
-        f = f + 1
-    i = i + 1
+        f += 1
 
 print(f'Numeros entre 0 a 10: {a}\nNumeros entre 11 a 20: {b}\nNumeros entre 21 a 30: {c}\nNumeros entre 31 a 40: {d}\nNumeros entre 41 a 50: {e}\nNumeros maior que 50: {f}')
