@@ -16,5 +16,5 @@ for currentVenda in range(len(vendas)):
         vendas[i] = int(input(f'Insira as vendas para {ilhas[i]}:\n'))
         checkSum += vendas[i]
         i += 1
-
+a
 print(f'Total de vendas: {checkSum}')
