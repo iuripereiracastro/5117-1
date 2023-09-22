@@ -33,8 +33,13 @@ for z in range(len(list)):
 print('------')
 
 #5. Imprimir os elementos da lista e dizer se é par ou impar
+parCounter = 0
 for num in range(len(list)):
     if list[num] % 2 == 0:
         print(f'O numero {list[num]} é par')
+        parCounter += 1
     else:
         print(f'O numero {list[num]} é impar')
+
+print(f'Numeros par: {parCounter}')
+print(f'Numeros impar: {len(list) - parCounter}')
