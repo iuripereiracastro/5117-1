@@ -11,7 +11,7 @@ print('------')
 #2. Imprime a sequencia de numeros entre 0 e o numero de casas na list - 1. Usa a variavel x
 i = 0
 for x in range(len(list)):
-    print(f'{i} = {list[x]}')
+    print(f'Casa {i} = {list[x]}')
     i += 1
 
 print('------')
@@ -27,5 +27,5 @@ print('------')
 #4. Imprime a lista na ordem inversa
 n = len(list) - 1
 for z in range(len(list)):
-    print(f'{n} = {list[n]}')
+    print(f'Casa {n} = {list[n]}')
     n -= 1
