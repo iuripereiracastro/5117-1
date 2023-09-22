@@ -4,6 +4,8 @@
 3. Pede ao utilizador para inserir vendas para cada ilha
 4. Apresenta:
              - total de vendas
+             - media
+             - ilhas e montante(s) que venderam mais, menos, mais que a media, menos que a media
 """
 ilhas = ["São Jorge", "Pico", "Graciosa", "Faial", "Terceira"]
 vendas = [0, 0, 0, 0, 0]
@@ -11,10 +13,10 @@ vendas = [0, 0, 0, 0, 0]
 i = 0
 checkSum = 0
 
-for currentVenda in range(len(vendas)):
+for ilha in ilhas:
     while i < 5:
         vendas[i] = int(input(f'Insira as vendas para {ilhas[i]}:\n'))
         checkSum += vendas[i]
         i += 1
-a
+
 print(f'Total de vendas: {checkSum}')
