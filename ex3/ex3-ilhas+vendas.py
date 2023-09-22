@@ -13,7 +13,7 @@ checkSum = 0
 
 for currentVenda in range(len(vendas)):
     while i < 5:
-        vendas[i] = int(input(f'Insira as vendas para {ilhas[i]}: '))
+        vendas[i] = int(input(f'Insira as vendas para {ilhas[i]}:\n'))
         checkSum += vendas[i]
         i += 1
 
