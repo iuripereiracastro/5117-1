@@ -29,3 +29,12 @@ n = len(list) - 1
 for z in range(len(list)):
     print(f'Casa {n} = {list[n]}')
     n -= 1
+
+print('------')
+
+#5. Imprimir os elementos da lista e dizer se é par ou impar
+for num in range(len(list)):
+    if list[num] % 2 == 0:
+        print(f'O numero {list[num]} é par')
+    else:
+        print(f'O numero {list[num]} é impar')
