@@ -19,4 +19,35 @@ for ilha in ilhas:
         checkSum += vendas[i]
         i += 1
 
-print(f'Total de vendas: {checkSum}')
+big = vendas[0]
+bigIlha = ilhas[0]
+small = vendas[0]
+smallIlha = ilhas[0]
+y = 0
+for venda in vendas:
+    #   Ilha com maior vendas
+    if vendas[y] > big:
+        big = vendas[y]
+        bigIlha = ilhas[y]
+    #   Ilha com menor vendas
+    if vendas[y] < small:
+        small = vendas[y]
+        smallIlha = ilhas[y]
+    y += 1
+
+print(f'Total das vendas: {checkSum}')
+medium = checkSum / 5
+print(f'Media das vendas: {medium}')
+
+print('----------------------------')
+x = 0
+for ilha in ilhas:
+    if vendas[x] >= medium:
+        print(f'{ilhas[x]} vendeu mais que a media')
+    else:
+        print(f'{ilhas[x]} vendeu menos que a media')
+    x += 1
+
+print('----------------------------')
+print(f'{bigIlha} vendeu a maior quantidade ({big})')
+print(f'{smallIlha} vendeu a menor quantidade ({small})')
