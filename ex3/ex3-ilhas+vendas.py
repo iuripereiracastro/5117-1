@@ -6,6 +6,7 @@
              - total de vendas
              - media
              - ilhas e montante(s) que venderam mais, menos, mais que a media, menos que a media
+             - ordena de forma crescente e decrescente
 """
 ilhas = ["São Jorge", "Pico", "Graciosa", "Faial", "Terceira"]
 vendas = [0, 0, 0, 0, 0]
@@ -51,3 +52,4 @@ for ilha in ilhas:
 print('----------------------------')
 print(f'{bigIlha} vendeu a maior quantidade ({big})')
 print(f'{smallIlha} vendeu a menor quantidade ({small})')
+
