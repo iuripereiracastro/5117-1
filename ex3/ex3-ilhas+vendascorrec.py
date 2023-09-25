@@ -27,8 +27,8 @@ for ilha in ilhas:
     casa += 1
 
 print(f' vendas = {vendas} total = {total} minimo = {minimo} maximo = {maximo}')
-
 print('--------------------------------------')
+
 for casa in range(len(vendas)):
     if vendas[casa] == minimo:
         ilhasmenor.append(ilhas[casa])
@@ -41,13 +41,13 @@ print(f' ilhas com menor venda = {ilhasmenor} menor valor = {minimo}')
 print(f' ilhas com maior venda = {ilhasmaior} maior valor = {maximo}')
 print('--------------------------------------')
 
-def ordenar(lista):
+def ordenar(lista, ordem = 1):
     troquei = True
     while troquei:
         troquei = False
         x = 0
         while x < len(lista) - 1:
-            if lista[x] > lista[x + 1]:
+            if lista[x] * ordem > lista[x + 1] * ordem:
                 temp = lista[x]
                 lista[x] = lista[x + 1]
                 lista[x + 1] = temp
@@ -56,4 +56,5 @@ def ordenar(lista):
     return lista
 
 print(ordenar(vendas))
-print('-------------------------------------')
+print(ordenar(vendas, -1))
+print('--------------------------------------')
