@@ -36,7 +36,7 @@ for venda in vendas:
     y += 1
 
 print(f'Total das vendas: {checkSum}')
-medium = checkSum / 5
+medium = checkSum / len(vendas)
 print(f'Media das vendas: {medium}')
 
 print('----------------------------')
