@@ -52,4 +52,3 @@ for ilha in ilhas:
 print('----------------------------')
 print(f'{bigIlha} vendeu a maior quantidade ({big})')
 print(f'{smallIlha} vendeu a menor quantidade ({small})')
-
