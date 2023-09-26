@@ -21,8 +21,8 @@ for ilha in ilhas:
         i += 1
 
 big = vendas[0]
-bigIlha = ilhas[0]
 small = vendas[0]
+bigIlha = ilhas[0]
 smallIlha = ilhas[0]
 y = 0
 for venda in vendas:
@@ -52,4 +52,3 @@ for ilha in ilhas:
 print('----------------------------')
 print(f'{bigIlha} vendeu a maior quantidade ({big})')
 print(f'{smallIlha} vendeu a menor quantidade ({small})')
-

@@ -41,7 +41,8 @@ print(f' ilhas com menor venda = {ilhasmenor} menor valor = {minimo}')
 print(f' ilhas com maior venda = {ilhasmaior} maior valor = {maximo}')
 print('--------------------------------------')
 
-def ordenar(lista, ordem = 1):
+
+def ordenar(lista, ordem=1):
     troquei = True
     while troquei:
         troquei = False
@@ -54,6 +55,7 @@ def ordenar(lista, ordem = 1):
                 troquei = True
             x += 1
     return lista
+
 
 print(ordenar(vendas))
 print(ordenar(vendas, -1))

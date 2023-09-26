@@ -38,4 +38,3 @@ def ari(num1, num2, op):
 
 
 print(ari(a, b, operador))
-
