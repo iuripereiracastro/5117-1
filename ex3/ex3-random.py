@@ -1,6 +1,7 @@
 import random
 
-def ordenar(lista, ordem = 1):
+
+def ordenar(lista, ordem=1):
     troquei = True
     while troquei:
         troquei = False
@@ -13,6 +14,7 @@ def ordenar(lista, ordem = 1):
                 troquei = True
             x += 1
     return lista
+
 
 if __name__ == '__main__':
     vendas = []
