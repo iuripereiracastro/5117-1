@@ -1,4 +1,4 @@
-x = (int(input(f'Escreva um numero inteiro\n')))
+x = int(input(f'Escreva um numero inteiro\n'))
 length = str(x)
 zprint = ''
 
