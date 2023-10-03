@@ -2,7 +2,7 @@ sequencia = []
 
 x = 0
 while x >= 0:
-    x = int(input(f'Escreva um digito\n(-1 para terminar)\n'))
+    x = (int(input(f'Escreva um digito\n(-1 para terminar)\n')))
     if x >= 0:
         sequencia.append(x)
 
