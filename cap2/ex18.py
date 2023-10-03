@@ -4,7 +4,7 @@ n = []
 for x in str(num):
     n.append(int(x))
 
-
+#   0 = deativado || 1 = ativado
 #   9 8 0 0 7 6 4 0 0 0 3
 #   - - 0 1 - - - 0 1 1 -
 counter = 0
